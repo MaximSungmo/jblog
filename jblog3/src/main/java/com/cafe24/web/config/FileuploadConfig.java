@@ -43,7 +43,7 @@ public class FileuploadConfig extends WebMvcConfigurerAdapter {
 	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {		
-		registry.addResourceHandler("resourceMapping").addResourceLocations("resourceLocation");
+		registry.addResourceHandler("/assets/image/**").addResourceLocations("file:/jblog-uploads/");
 	}
 //	*spring-servlet.xml*에 작성된 하기의 코드를 위와 같이 Java 로 설정  	
 //	<!-- the mvc resources url mapping -->
