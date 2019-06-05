@@ -33,7 +33,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1:8080/manager/text</url>
-					<path>/jblog2</path>
+					<path>/jblog3</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
