@@ -11,7 +11,7 @@
 		<module>jblog4</module>
 		<module>jblog2_1</module>
 	</modules>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -20,7 +20,7 @@
 		<logback.version>1.1.1</logback.version>
 	</properties>
 
-	<dependencies>
+	<dependencies>	
 		<!-- Spring Core -->
 		<dependency>
 			<groupId>org.springframework</groupId>

@@ -9,6 +9,7 @@
 	</parent>
 	<artifactId>jblog4</artifactId>
 	<packaging>war</packaging>
+	
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
